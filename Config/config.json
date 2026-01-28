@@ -1,11 +1,12 @@
 {
-    "moderators": ["discordId", "discordId2"],
+    "moderators": ["1146585232611483738", "discordId2"],
   "discord": {
     "bUseDiscordBot": true,
-    "bot_token": ""
+    "bot_token": "MTQ2NTk4OTQwMzc3OTUzNDk0MA.GhG9sx.f-mKVdtRKCJ6AqxPQNk3v0HY0T_vMKwj-5Nuwc",
+    "bEnableInGamePlayerCount": true
   },
   "mongodb": {
-    "database": "mongodb://127.0.0.1/Reload"
+    "database": "mongodb://localhost:27017/xonmc"
   },
     "chat": {
         "//": "Disabling global chat can help the server to perform faster as less resources are used.",
@@ -37,7 +38,7 @@
     },
 
     "//": "to add more gameserver on 'gameServerIP' add ip:port:playlist",
-    "matchmakerIP": "127.0.0.1:80",
+    "matchmakerIP": "26.33.187.227:80",
     "gameServerIP": ["127.0.0.1:7777:playlist_defaultsolo"],
     
     "//": "For 'BattlePassSeason' enter only the number of your season (from 2 to 20)",
@@ -80,16 +81,16 @@
     "bBackendStatusChannelId": "",
 
     "//": "Use HTTPS (For VPS Side Only, Or If You Were To Setup  A Type Record To Your Own Public Adress From Your Domain) (You Also Need To Change The Examples In SSl Folder!)",
-    "bEnableHTTPS": false, "//": "Only Enable if You Have SSL Certificate In The ssl Folder",
+    "bEnableHTTPS": true, "//": "Only Enable if You Have SSL Certificate In The ssl Folder",
     "ssl": {
-        "cert": "./ssl/example_certificate.crt",
-        "//ca//": "./ssl/example_ca_bundle.crt", "//": "Optional (Only If You Have A CA Bundle from your ssl certificate)",
-        "key": "./ssl/example_private.key"
+        "cert": "./ssl/certificate.crt",
+        "//ca//": "./ssl/bundle.crt", "//": "Optional (Only If You Have A CA Bundle from your ssl certificate)",
+        "key": "./ssl/private.key"
     },
 
     "//": "The Caldera Service is used for newer versions of the game! For see what season are now supported look CalderaService/guids.json and add the version on 'bGameVersion'",
     "bEnableCalderaService": false,
-    "bGameVersion": "27.11",
+    "bGameVersion": "17.50",
     "bCalderaServicePort": 5000,
 
     "//": "These are all the events you can add to the game, like the rift in the sky!",
