@@ -2,7 +2,7 @@
     "moderators": ["1146585232611483738", "discordId2"],
   "discord": {
     "bUseDiscordBot": true,
-    "bot_token": "MTQ2NTk4OTQwMzc3OTUzNDk0MA.GhG9sx.f-mKVdtRKCJ6AqxPQNk3v0HY0T_vMKwj-5Nuwc",
+    "bot_token": "MTQ2NTk4OTQwMzc3OTUzNDk0MA.Gchpxs.7I_WWKZsKTh2-hOWI2GRwcXdqolqssz9SXkNJQ",
     "bEnableInGamePlayerCount": true
   },
   "mongodb": {
